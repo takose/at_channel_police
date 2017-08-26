@@ -15,7 +15,7 @@ class ReportController < ApplicationController
       Slack.configure do |config|
         config.token = ENV['SLACK_BOT_USER_TOKEN']
       end
-      if @body['event']['type'] == 'message' && @body['event']['user'] != 'U6KRQQF2B' && /<!channel>/.match(@body['event']['text'])
+      if @body['event']['type'] == 'message' && @body['event']['user'] != ENV['BOT_ID'] && /<!channel>/.match(@body['event']['text'])
         client.chat_postMessage(
           as_user: 'true',
           channel: @body['event']['channel'],
