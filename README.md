@@ -1,24 +1,4 @@
-# README
+# At Channel Police
+[![https://gyazo.com/e2e0e7241579a38ce051660b969ba77b](https://i.gyazo.com/e2e0e7241579a38ce051660b969ba77b.gif)](https://gyazo.com/e2e0e7241579a38ce051660b969ba77b)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+under MIT license
